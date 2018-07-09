@@ -243,34 +243,27 @@ a {
 }
 
 
-@media only screen and (max-width: 640px) {
-    .words{
-        background: #666;
-        color: white;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .link {
-        display: none;
-    }
-}
 
 
-@media only screen and (min-width: 980px){
-    .lower {
-        font-size: 24px;
-    }
-}
 
-@media only screen and (max-width: 768px) {
-    .top-link{
-        display: none;
+
+
+
+
+@media only screen and (min-width: 768px){
+    .content .name .link{
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 640px) {
-    .lgbox{
-        background: #4aaaa5;
+    .content, .name, .link{
+        width: 100%;
     }
 }
+/* 
+@media only screen and (min-width: 768px) {
+    .name, .link {
+        width: 100%;
+    }
+} */
