@@ -268,11 +268,13 @@ a {
     }
 }
 
-@media only screen and  (max-width: 640px){
-   .con, .concontainer-one, .con .concontainer-two, .con .container-three, .container-four, .container-five, .container-six{
-        width: 100%;
+@media only screen and (max-width: 648px){
+    .container-one, .container-two, .container-three, .container-four, .container-five, .container-six{
+        padding: 0%;
     }
+
 }
 
 /* I tried to make everything look very even. All I could get was for the content to move to the left and line them up
-    I wanted to stack up the pictures as the viewport gets smaller.  */
+    I wanted to stack up the pictures about each other, I made the pictures and links in the pictures way to specific and now I can't move them around. 
+    I will have to come back to it so I can  fix the html. */
