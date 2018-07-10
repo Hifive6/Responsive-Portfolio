@@ -251,19 +251,28 @@ a {
 
 
 @media only screen and (min-width: 768px){
-    .content .name .link{
+    .content, .link{
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 640px) {
-    .content, .name, .link{
+    .content, .link{
         width: 100%;
     }
 }
-/* 
-@media only screen and (min-width: 768px) {
-    .name, .link {
+
+@media only screen and (max-width: 768px){
+    .top-link{
         width: 100%;
     }
-} */
+}
+
+@media only screen and  (max-width: 640px){
+   .con, .concontainer-one, .con .concontainer-two, .con .container-three, .container-four, .container-five, .container-six{
+        width: 100%;
+    }
+}
+
+/* I tried to make everything look very even. All I could get was for the content to move to the left and line them up
+    I wanted to stack up the pictures as the viewport gets smaller.  */
